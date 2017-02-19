@@ -45,7 +45,7 @@ namespace ListViewAndroidXamarin
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int icon = 2130837504;
 			
 			static Drawable()
 			{
@@ -57,11 +57,36 @@ namespace ListViewAndroidXamarin
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int lvEmployees = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int txtEmail = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int txtName = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int EmployeeItem = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
